@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#options {
+    margin-left: 32%;
+    margin-right: 25%;
+    margin-top: 10vh;
+}
+
+#options img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 3px solid black;
+    margin-left: 3%;
+}
+
+.ops {
+    float: left;
+    width: 25%;
+    
+}
+
+.ops figcaption {
+    padding-top: 8%;
+    padding-left: 4%;
+    font-size: 120%;
+}
+.ops figcaption a{
+    text-decoration: none;
+    color: #192F59;
+}
+
+/* image 6 
+
+position: absolute;
+width: 125px;
+height: 125px;
+left: 64px;
+top: 40px;
+
+background: url(image.png);
+border-radius: 112.5px;
+*/
