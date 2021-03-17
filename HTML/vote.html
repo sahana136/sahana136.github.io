@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cast vote</title>
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <style>
+        #post {
+            margin-left: 4.5%;
+            width: 14vw;
+            height: 4vh;
+            color: #fff;
+            background-color: #192f59;
+            border: none;
+            cursor: pointer;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 70%;
+            padding-left: 2%;
+        }
+        #candidate {
+            margin-left: 4%;
+            width: 14vw;
+            height: 4vh;
+            color: #fff;
+            background-color: #192f59;
+            border: none;
+            cursor: pointer;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 70%;
+            padding-left: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header class='header'>
+            <img id='nitk' src='https://cutt.ly/4zxfuSX' alt='NITK Logo' />
+            <img id='sc' src='https://cutt.ly/JzxgGX6' alt='SC Logo'/>
+            <div id="heading">
+                <h1>National Institute of Technology Karnataka</h1>
+                <h1>Surathkal</h1>
+            </div>
+        </header>
+        <nav class='nav'>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#" style="float: right;">Logout</a>
+        </nav>
+    </div>
+    <div id="body">
+        <div id="head">
+            <img src="../images/vote.jpeg" alt="vote">
+            <figcaption>Cast Your Vote</figcaption>
+        </div>
+        <form action="#" id="form">
+            <label for="post" id="select1">Vote for the post:</label>
+            <select name="post" id="post">
+                <option disabled selected value="0">Select a post</option>
+                <option value="president">President</option>
+                <option value="vice-pres">Vice-President</option>
+                <option value="sec">Secretary</option>
+            </select>
+            <br>
+            <br>
+            <label for="candidate" id="select2">Select Candidate:</label>
+            <select name="candidate" id="candidate">
+                <option disabled selected value="0">Select a candidate</option>
+                <option value="C1">Candidate 1</option>
+                <option value="C2">Candidate 2</option>
+                <option value="C3">Candidate 3</option>
+                <option value="C4">Candidate 4</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit" id="sub_btn">Vote</button>
+        </form>
+    </div>
+</body>
+</html>
