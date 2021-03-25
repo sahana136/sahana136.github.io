@@ -7,6 +7,7 @@
     <title>Apply</title>
     <link rel="stylesheet" href="../CSS/home.css">
     <link rel="stylesheet" href="../CSS/index.css">
+    <script src="../JS/index.js"></script>
 </head>
 <body>
     <div>
@@ -19,17 +20,16 @@
             </div>
         </header>
         <nav class='nav'>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#" style="float: right;">Logout</a>
+            <a href="main.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="home.html" style="float: right;">Logout</a>
         </nav>
         <div id="body">
             <div id="head">
                 <img src="../images/apply.jpeg" alt="apply">
                 <figcaption>Apply</figcaption>
             </div>
-            <form action="#" id="form">
+            <form action="application.html" id="form" onsubmit="return select_valid()">
                 <label for="list">Select a Post</label>
                 <select name="options" id="options">
                     <option disabled selected value="0"> Select Post</option>

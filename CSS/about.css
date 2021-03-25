@@ -1,0 +1,110 @@
+.about {
+    background-color: #022036;
+}
+.title {
+    text-align: center;
+    color: #ffffff;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-weight: 800;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    width: 75%;
+}
+.image1 {
+    width: 100%;
+    padding: 5%;
+}
+#sc_image {
+    width: 100%;
+    height: 40vh;
+}
+.desc1 {
+    color: #ffffff;
+    float: right;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1rem;
+}
+.structure {
+    margin-top: 40%;
+}
+.title1 {
+    text-align: left;
+    color: #fff;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 33%;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: 800;
+    border-bottom: 2px solid #ffffff;
+}
+.right {
+    float: right
+}
+#struct_img {
+    height: 30vh;
+    width: 100%;
+    margin-top: 4%;
+    padding: 5%;
+}
+.left {
+    color: #ffffff;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 1rem;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+@media(min-width: 800px) {
+    .title {
+        width: 25%;
+        margin-bottom: 2%;
+        padding-top: 3%;
+    }
+    .desc1{
+        width: 40%;
+        font-size: 1.5rem;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        padding-left: 0;
+        padding-right: 2%;
+    }
+    .left {
+        width: 40%;
+        font-size: 1.5rem;
+    }
+    .image1 {
+        width: 50%;
+        float: left;
+        padding: 0;
+        margin-left: 2%;
+    }
+    .intro {
+        height: 520px;
+    }
+    .title1 {
+        width: 12%;
+    }
+    .structure {
+        margin-top: 5%;
+        height: 520px;
+    }
+    #struct_img {
+        width: 80%;
+        height: 40vh;
+        margin-left: 15%;
+        padding: 0;
+    }
+    .right {
+        width: 50%;
+    }
+}

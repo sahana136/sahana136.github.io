@@ -1,0 +1,70 @@
+.app_head{
+    text-align: center;
+    padding: 3%;
+}
+
+form{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 10px 5px #aaaaaa;
+    text-align: center;
+}
+
+label {
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+.input {
+    padding: 1%;
+}
+
+.inp_box {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+input, textarea, select {
+    width: 80%;
+    height: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+button {
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #192F59;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    margin-left: 0;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px 5px #aaaaaa;
+    border: 1px solid #BFBFBF;
+    color: #192F59;
+}
+
+@media (min-width: 900px) {
+    form{
+        margin-left: 30%;
+        width: 40%;
+    }
+    input, textarea, select {
+        width: 20rem;
+        height: 2rem;
+    }
+}

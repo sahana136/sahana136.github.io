@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="../CSS//home.css">
+    <link rel="stylesheet" href="../CSS/application.css">
+    <script src="../JS/index.js"></script>
+</head>
+<body>
+    <div>
+        <header class='header'>
+            <img id='nitk' src='https://cutt.ly/4zxfuSX' alt='NITK Logo' />
+            <img id='sc' src='https://cutt.ly/JzxgGX6' alt='SC Logo'/>
+            <div id="heading">
+                <h1>National Institute of Technology Karnataka</h1>
+                <h1>Surathkal</h1>
+            </div>
+        </header>
+        <nav class='nav'>
+            <a href="main.html">Home</a>
+            <a href="about.html">About</a>
+        </nav>
+    </div>
+    <div class="application">
+        <h1 class="app_head">Application Form</h1>
+        <form action="main.html" onsubmit="return app_valid()">
+            <div class="input">
+                <label for="name">Name: </label>
+                <div class="inp_box">
+                    <input id="name" type="text" placeholder="Your IRIS Name">
+                </div>
+            </div>
+            <div class="input">
+                <label for="sem">Semester: </label>
+                <div class="inp_box">
+                    <select name="sem" id="sem">
+                        <option disabled selected value="0">Semester</option>
+                        <option value="1">First</option>
+                        <option value="2">Second</option>
+                        <option value="3">Third</option>
+                        <option value="4">Fourth</option>
+                        <option value="5">Fifth</option>
+                        <option value="6">Sixth</option>
+                        <option value="7">Seventh</option>
+                        <option value="8">Eighth</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input">
+                <label for="dept">Department: </label>
+                <div class="inp_box">
+                    <input type="text" name="dept" id="dept">
+                </div>
+            </div>
+            <div class="input">
+                <label for="why">Why do you want to apply for this post?</label>
+                <div class="inp_box">
+                    <textarea name="why" id="why" cols="30" rows="3"></textarea>
+                </div>
+            </div>
+            <button type="submit" id="button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

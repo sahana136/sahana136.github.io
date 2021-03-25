@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SC</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="../CSS/home.css">
     <script src="../JS/index.js"></script>
 </head>
@@ -21,21 +21,23 @@
         <nav class='nav'>
             <a href="home.html">Home</a>
             <a href="about.html">About</a>
-            <a href="signup.html">Sign Up</a>
+            <a href="home.html">Login</a>
         </nav>
     </div>
     <div class='body' >
         <p class='welcome'>WELCOME TO STUDENTS' COUNCIL NITK</p>
         <div class='login'>
-            <p class='login-text'>LOGIN</p>
-            <p>Note: Use your NITK Email ID as username and it’s password to login</p>
-            <form action="main.html" name="login" class='login-container'>
+            <p class='login-text'>SIGN UP</p>
+            <p>Note: Use your NITK Email ID only</p>
+            <form action="main.html" name="signup" class='login-container'>
                 <input type="text" placeholder="Enter NITK Email ID" id="email" class='creds' name="email"></input>
                 <br></br>
                 <input type="password" placeholder="Enter Password" id="psw" class='creds' name="psw"></input>
                 <br></br>
-                <button type="submit" onclick="return (val_email(email.value) && val_psw(psw.value))" class='btn'>Login</button>
-                <button type="submit" formaction="signup.html" class='btn'>Switch to Sign Up</button>
+                <input type="password" placeholder="Confirm Password" id="con_psw" class='creds' name="con_psw"></input>
+                <br></br>
+                <button type="submit" onclick="return (signup_validation(email.value, psw.value, con_psw.value))" class='btn'>Sign Up</button>
+                <button type="submit" formaction="home.html" class='btn'>Switch to Login</button>
             </form>
         </div>
     </div>
