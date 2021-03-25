@@ -19,7 +19,6 @@
             </div>
         </header>
         <nav class='nav'>
-            <a href="home.html">Home</a>
             <a href="about.html">About</a>
             <a href="signup.html">Sign Up</a>
         </nav>
@@ -34,7 +33,7 @@
                 <br></br>
                 <input type="password" placeholder="Enter Password" id="psw" class='creds' name="psw"></input>
                 <br></br>
-                <button type="submit" onclick="return (val_email(email.value) && val_psw(psw.value))" class='btn'>Login</button>
+                <button type="submit" onclick="return (validate(email.value,psw.value))" class='btn'>Login</button>
                 <button type="submit" formaction="signup.html" class='btn'>Switch to Sign Up</button>
             </form>
         </div>
